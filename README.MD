@@ -1,49 +1,94 @@
-# refine-dashboard-kanban
+# Project Management System with Kanban Board & RBAC
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+_Developed as the capstone project for the Master of Computer Applications (MCA) program._
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+A comprehensive project management application built with **React**, **Refine**, and **Supabase** that provides task tracking, milestone management, sprint planning, and detailed reporting capabilities with Role-Based Access Control (RBAC).
 
-## Getting Started
+This application streamlines project management workflows by offering an intuitive Kanban board interface, sprint and milestone planning tools, and robust reporting features.
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+---
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+## Key Features
 
-## Available Scripts
+- **Kanban Board:** Interactive board for visual task tracking with drag-and-drop workflows
+- **Sprint & Milestone Planning:** Schedule and track team deliverables
+- **Reporting & Analytics:** Comprehensive project, user, and task reporting
+- **Role-Based Access Control (RBAC):** Granular permissions for Project Managers vs. Team Members
+- **Time Tracking & Estimation:** Monitor project progress and time allocation
+- **Team Management:** Collaborative tools tailored for cross-functional teams
 
-### Running the development server.
+---
 
-```bash
-    npm run dev
-```
+## Tech Stack & Architecture Highlights
 
-### Building for production.
+| Layer                       | Technology                          |
+| :-------------------------- | :---------------------------------- |
+| **Frontend Framework**      | React + Refine Framework            |
+| **Backend & Database**      | Supabase (PostgreSQL, Auth)         |
+| **State & Data Fetching**   | React Query / Refine Data Providers |
+| **UI Components & Styling** | Ant Design                          |
+| **Version Control & CI/CD** | Git, GitHub                         |
 
-```bash
-    npm run build
-```
+---
 
-### Running the production server.
+## Application Screenshots
 
-```bash
-    npm run start
-```
+### 1. Project Manager Dashboard
 
-## Learn More
+![Dashboard for PM](./assets/screenshots/dashboard_for_pm.png)
 
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
+---
 
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/data/packages/nestjs-query/)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
+### 2. Kanban Board (Project Manager View)
 
-## License
+![Kanban Board for PM](./assets/screenshots/kanban_board_for_PM.png)
 
-MIT
+---
+
+### 3. Sprints Card View
+
+![Sprints Card View for PM](./assets/screenshots/sprints_card_view_for_pm.png)
+
+---
+
+### 4. Reports & Analytics
+
+![Reports for PM](./assets/screenshots/reports_for_pm.png)
+
+---
+
+### 5. Team Member View & Task Cards
+
+![Highlighted Task Cards for Team Member](./assets/screenshots/highlighted_task_cards_for_team_member.png)
+
+---
+
+## Quick Start Guide
+
+### Prerequisites
+
+- **OS:** Linux / macOS / WSL
+- **Node.js:** v18 or higher
+
+### Installation & Setup
+
+1. **Clone the repository and navigate to the project directory:**
+
+   ```bash
+   git clone [https://github.com/polz24/project-management-system.git](https://github.com/polz24/project-management-system.git)
+   cd project-management-system
+
+   ```
+
+2. **Run setup scripts:**
+
+#### Initial setup & dependency installation
+
+./install.sh
+
+#### Start the development server
+
+./start.sh
+
+2. **Access the Application:**
+   Open your browser and navigate to http://localhost:5173/
