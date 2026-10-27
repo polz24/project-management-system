@@ -90,5 +90,5 @@ This application streamlines project management workflows by offering an intuiti
 
 ./start.sh
 
-2. **Access the Application:**
+3. **Access the Application:**
    Open your browser and navigate to http://localhost:5173/
